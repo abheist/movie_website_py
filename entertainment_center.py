@@ -9,7 +9,7 @@ import fresh_tomatoes
 # Making the instance of toy_story movie
 toy_story = media.Movie("Toy Story",
 						"A story of a boy and his toy came to life",
-						"https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Toy_Story.jpg/220px-Toy_Story.jpg",
+						"https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Toy_Story.jpg/220px-Toy_Story.jpg", # noqa
 						"https://www.youtube.com/watch?v=Bj4gS1JQzjk")
 
 # print (toy_story.storyline)
@@ -17,7 +17,7 @@ toy_story = media.Movie("Toy Story",
 # Making the instance of avatar movie
 avatar = media.Movie("Avatar",
 					 "A marine on an alien planet",
-					 "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Avatar-Teaser-Poster.jpg/220px-Avatar-Teaser-Poster.jpg",
+					 "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Avatar-Teaser-Poster.jpg/220px-Avatar-Teaser-Poster.jpg", #noqa
 					 "https://www.youtube.com/watch?v=cRdxXPV9GNQ")
 
 # print avatar.storyline
