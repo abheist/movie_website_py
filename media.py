@@ -1,3 +1,6 @@
+# This file "media.py" helps in making instances of the movies.
+# the movie's instance variables are defined in "entertainment_center.py"
+
 import webbrowser
 class Movie():
 	"""
@@ -11,5 +14,6 @@ class Movie():
 		self.trailer_youtube_url = trailer_youtube
 
 
+	# This method is build for show_casing the trailor
 	def show_trailer(self):
 		webbrowser.open(self.trailer_youtube_url)
